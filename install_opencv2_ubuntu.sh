@@ -31,10 +31,10 @@ sudo apt-get install -y build-essential cmake libgtk2.0-dev pkg-config \
                         libopencore-amrwb-dev libtheora-dev libvorbis-dev \
                         libxvidcore-dev x264 v4l-utils
 
-### Download opencv-3.4.2.17
-wget https://github.com/opencv/opencv/archive/3.4.2.17.zip -O opencv-3.4.2.17.zip
-unzip opencv-3.4.2.17.zip
-cd opencv-3.4.2.17
+### Download opencv-3.4.6
+wgethttps://github.com/opencv/opencv/archive/3.4.6.zip -O opencv-3.4.67.zip
+unzip opencv-3.4.6.zip
+cd opencv-3.4.6
 mkdir release
 cd release
 
@@ -44,7 +44,7 @@ make all -j$(nproc) # Uses all machine cores
 sudo make install
 
 cd ../../
-rm -rf ./opencv-3.4.2.17
+rm -rf ./opencv-3.4.6
 
 sudo apt-get install python-opencv -y
 
