@@ -13,7 +13,7 @@
 ################################################################################
 
 ### Single line script will download and run this script automatically:
-# curl -s "https://gist.githubusercontent.com/preston-scibek/0712ea0e7562147019e37cea7f4830e9/raw/0ebc9864c19985776d82a6bed4b9e55ace00705a/install_opencv2_ubuntu.sh" | bash
+# curl -s "https://raw.githubusercontent.com/preston-scibek/scripts/master/install_opencv2_ubuntu.sh" | bash
 
 
 ### Dependencies
