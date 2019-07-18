@@ -32,7 +32,7 @@ sudo apt-get install -y build-essential cmake libgtk2.0-dev pkg-config \
                         libxvidcore-dev x264 v4l-utils
 
 ### Download opencv-3.4.6
-wget   https://github.com/opencv/opencv/archive/3.4.6.zip -O opencv-3.4.67.zip
+wget   https://github.com/opencv/opencv/archive/3.4.6.zip -O opencv-3.4.6.zip
 unzip opencv-3.4.6.zip
 cd opencv-3.4.6
 mkdir release
